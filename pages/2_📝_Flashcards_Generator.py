@@ -144,7 +144,7 @@ if 'chunks' in st.session_state and st.session_state.chunks is not None and st.s
     cost = len(encs.encode(str(chunks)))*0.000002
     size = len(chunks)
     anki_format = st.checkbox("Format Q&A pairs for Anki Import?", value = False, key = "anki_format", help = "When unchecked, the output will be a text file with questions and answers separated by a line break. Otherwise, the output will be a text file with questions and answers separated by '::' that you can use to easily import into Anki.")
-    subject = st.text_input("Enter the name of the subject/module:", key="subject")
+    subject = st.text_input("Enter the name of the subject/module: (required)", key="subject")
     gen_button = st.button("Generate Questions", key="gen_button", type="primary")
     if gen_button and subject:
         prog_value = st.empty()
