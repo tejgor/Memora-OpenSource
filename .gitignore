@@ -1,0 +1,23 @@
+# venv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd.pdm-python
+
+# pdm
+.pdm-python
+
+#streamlit
+.streamlit/secrets.toml
+
+# misc
+.DS_Store
+.env
+*.pdf
+unused/
+Notes/*
+VectorDBs/*
+testing.py
+pdm_files/
+archive/

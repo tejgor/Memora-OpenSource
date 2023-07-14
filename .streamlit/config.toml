@@ -1,0 +1,12 @@
+[theme]
+base = "dark"
+primaryColor = "#81BE83"
+
+[server]
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+magicEnabled = false
