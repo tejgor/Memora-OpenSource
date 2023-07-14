@@ -3,7 +3,6 @@ import time
 from typing import List
 from dotenv import load_dotenv
 from langchain.chains import LLMChain
-from langchain.callbacks import get_openai_callback
 import asyncio
 
 async def run_chain(chain: LLMChain, chunk, num ,subject):
