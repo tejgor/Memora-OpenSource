@@ -1,4 +1,4 @@
-# Memora - OpenSource Study Assistant
+# Memora - OpenSource AI Study Assistant
 
 ### Use your own notes/documents to generate questions and answers grounded in your knowledge.
 
