@@ -13,8 +13,6 @@
 2. **Generate Question-Answer pairs (Flashcards) based on your uploaded content to test your knowledge**
 3. Use these generated flashcards to test yourself and ask questions to clarify any confusion.
 
-#### If you would like to test out the features first, go to [Memora](https://memora.page "https://memora.page") to try it out for free!
-
 ### Installation:
 
 1. Clone this repo onto your local machine
